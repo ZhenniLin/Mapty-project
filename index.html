@@ -24,7 +24,6 @@
       crossorigin=""
     ></script>
 
-    <script defer src="other.js"></script>
     <script defer src="script.js"></script>
     <title>Mapty | Map your workouts</title>
   </head>
@@ -33,36 +32,39 @@
       <img src="logo.png" alt="Logo" class="logo" />
       <ul class="workouts">
         <form class="form hidden">
-          <div class="form_row">
-            <label class="form_label">Type</label>
-            <select class="form_input form_input--type">
+          <div class="form__row">
+            <label class="form__label">Type</label>
+            <select class="form__input form__input--type">
               <option value="running">Running</option>
               <option value="cycling">Cycling</option>
             </select>
           </div>
-          <div class="form_row">
-            <label class="form_label">Distance</label>
-            <input class="form_input form_input--distance" placeholder="km" />
+          <div class="form__row">
+            <label class="form__label">Distance</label>
+            <input class="form__input form__input--distance" placeholder="km" />
           </div>
-          <div class="form_row">
-            <label class="form_label">Duration</label>
-            <input class="form_input form_input--duration" placeholder="min" />
-          </div>
-          <div class="form_row">
-            <label class="form_label">Cadence</label>
+          <div class="form__row">
+            <label class="form__label">Duration</label>
             <input
-              class="form_input form_input--cadence"
+              class="form__input form__input--duration"
+              placeholder="min"
+            />
+          </div>
+          <div class="form__row">
+            <label class="form__label">Cadence</label>
+            <input
+              class="form__input form__input--cadence"
               placeholder="step/min"
             />
           </div>
-          <div class="form_row form_row--hidden">
-            <label class="form_label">Elev Gain</label>
+          <div class="form__row form__row--hidden">
+            <label class="form__label">Elev Gain</label>
             <input
-              class="form_input form_input--elevation"
+              class="form__input form__input--elevation"
               placeholder="meters"
             />
           </div>
-          <button class="form_btn">OK</button>
+          <button class="form__btn">OK</button>
         </form>
 
         <!-- <li class="workout workout--running" data-id="1234567890">

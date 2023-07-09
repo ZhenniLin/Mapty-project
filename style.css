@@ -87,29 +87,29 @@ a:visited {
   border-left: 5px solid var(--color-brand--1);
 }
 
-.workout_title {
+.workout__title {
   font-size: 1.7rem;
   font-weight: 600;
   grid-column: 1 / -1;
 }
 
-.workout_details {
+.workout__details {
   display: flex;
   align-items: baseline;
 }
 
-.workout_icon {
+.workout__icon {
   font-size: 1.8rem;
   margin-right: 0.2rem;
   height: 0.28rem;
 }
 
-.workout_value {
+.workout__value {
   font-size: 1.5rem;
   margin-right: 0.5rem;
 }
 
-.workout_unit {
+.workout__unit {
   font-size: 1.1rem;
   color: var(--color-light--1);
   text-transform: uppercase;
@@ -139,22 +139,22 @@ a:visited {
   opacity: 0;
 }
 
-.form_row {
+.form__row {
   display: flex;
   align-items: center;
 }
 
-.form_row--hidden {
+.form__row--hidden {
   display: none;
 }
 
-.form_label {
+.form__label {
   flex: 0 0 50%;
   font-size: 1.5rem;
   font-weight: 600;
 }
 
-.form_input {
+.form__input {
   width: 100%;
   padding: 0.3rem 1.1rem;
   font-family: inherit;
@@ -165,12 +165,12 @@ a:visited {
   transition: all 0.2s;
 }
 
-.form_input:focus {
+.form__input:focus {
   outline: none;
   background-color: #fff;
 }
 
-.form_btn {
+.form__btn {
   display: none;
 }
 
